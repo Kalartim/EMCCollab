@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EMCCollab", "EMCCollab\", "{797F657B-45E7-4427-A62E-41AFBF5920E7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_3364"
+		Debug.AspNetCompiler.PhysicalPath = "EMCCollab\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3364\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_3364"
+		Release.AspNetCompiler.PhysicalPath = "EMCCollab\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3364\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3364"
+		SlnRelativePath = "EMCCollab\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{797F657B-45E7-4427-A62E-41AFBF5920E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797F657B-45E7-4427-A62E-41AFBF5920E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A90C7144-0339-4750-911B-CC1F4DB2BBAD}
+	EndGlobalSection
+EndGlobal
