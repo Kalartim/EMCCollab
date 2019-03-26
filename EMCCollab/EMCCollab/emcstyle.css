@@ -5,6 +5,22 @@
 
 h1
 { 
-    font-family: "Global Serif";
-    color: darkblue;
+    font-family: "Alien Robot";
+   font-size: 3vw;
+    color:rgb(0, 73, 205);
+}
+
+    
+p
+{
+    outline: 3px solid orange;
+    border: 2px solid tomato;
+    background-color: white;
+    
+}
+
+img
+{
+    float: right;
+    clear: left;
 }
