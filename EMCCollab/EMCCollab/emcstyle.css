@@ -1,26 +1,37 @@
-﻿body 
-{
-    background-color: aliceblue;
+﻿body {
+    background-color: rgb(239, 242, 247);
 }
 
-h1
-{ 
-    font-family: "Alien Robot";
+#logo{ 
+    font-family: Zekton;
    font-size: 3vw;
-    color:rgb(0, 73, 205);
+   color: rgb(0, 73, 205);
+   border: 5px solid white;
+   width: 282px;
+   border-radius: 25px;
+   background-color: white;
 }
 
+span {
+    color: rgb(159, 156, 236);
+}
+
+#signin{
+    display: inline;
+    vertical-align: top;
+    font-family: 'Arial Rounded MT';
+    background-color: white;
+    line-height: 28px;
+}
     
-p
-{
+p{
     /*outline: 3px solid orange;*/
     /*border: 2px solid tomato;*/
     background-color: white;
     
 }
 
-img
-{
+img{
     float: right;
     clear: left;
 }
