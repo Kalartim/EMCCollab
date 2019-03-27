@@ -17,7 +17,9 @@ span {
 }
 
 #signin{
+    float: right;
     display: inline;
+    text-align: justify;
     vertical-align: top;
     font-family: 'Arial Rounded MT';
     background-color: white;
@@ -38,4 +40,8 @@ body {
 img {
     float: right;
     clear: left;
+}
+
+li {
+   display: inline;
 }
