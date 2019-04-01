@@ -1,0 +1,10 @@
+﻿.navbar{
+    overflow: hidden;
+    background-color: #065a98;
+    font-family: Quicksand;
+}
+
+.navbar a{
+    font-family: Raleway;
+    color: white;
+}
