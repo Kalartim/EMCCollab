@@ -1,10 +1,71 @@
-﻿.navbar{
+﻿/*Formatting the navbar itself*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: #065a98;
-    font-family: Quicksand;
 }
 
-.navbar a{
-    font-family: Raleway;
+.dropbtn {
     color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
+
+
+/*shifting all the nav bar text/sections to the left*/
+li{
+    float: left;
+}
+
+/*Formatting the text in the navbar/Style of the drop down menu button*/
+li a  {
+        display: block;
+        font-family: Quicksand;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+    }
+
+/*Changes the background color of a navbar section if it is being hovered*/
+li a:hover, .dropdown:hover .dropbtn {
+     background-color: #91c8e3;
+    }
+
+/*Container (<div>) that is needed to position the content of the drop down menu*/
+li.dropdown{
+    display: inline-block;
+}
+
+/*Formatting of the actual menu*/
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #eeeeee;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+ /*Links inside the drop down menu*/
+.dropdown-content a{
+    color: #cb122f;
+    font-family: Raleway;
+    font-size: 14px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color:#a2a2a4;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+
