@@ -1,0 +1,29 @@
+﻿/*The tab itself (new class)*/
+.tab {
+    overflow: hidden;
+    border: 1px solid #91C8E3;
+    background-color: #065A90;
+}
+/*The tab button (also new class)*/
+.tabbtn{
+    background-color: inherit;
+    float:left;
+    cursor:pointer;
+    padding:14px 16px;
+    transition: 0.3s;
+}
+
+tabbtn:hover{
+    background-color: #dddddd;
+}
+
+.tabbtn.active{
+    background-color: #cccccc;
+}
+
+.tabcont{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #cccccc;
+    border-top: none;
+}
