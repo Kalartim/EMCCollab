@@ -3,13 +3,36 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="TabsStyle.css" />
+    <script src="Tabs.js"></script>
     <title></title>
 </head>
 <body>
+    <!-- Tab links/buttons -->
     <div class="tab">
-     
+        <button class="tablinks" onclick="tabScript(evt, 'Sprint 1')">Sprint 1</button>
+        <button class="tablinks" onclick="tabScript(evt, 'Sprint 2')">Sprint 2</button>
+        <button class="tablinks" onclick="tabScript(evt, 'Sprint 3')">Sprint 3</button>
+        <button class="tablinks" onclick="tabScript(evt, 'Sprint 4')">Sprint 4</button>
+    </div>
 
+    <div id="Sprint 1" class="tabcont">
+        <h3>Sprint 1</h3>
+        <p>Your tasks for Sprint 1: </p>
+    </div>
 
+    <div id="Sprint 2" class="tabcont">
+        <h3>Sprint 2</h3>
+        <p>Your tasks for Sprint 2: </p>
+    </div>
+
+    <div id="Sprint 3" class="tabcont">
+        <h3>Sprint 3</h3>
+        <p>Your tasks for Sprint 3: </p>
+    </div>
+
+    <div id="Sprint 4" class="tabcont">
+        <h3>Sprint 4</h3>
+        <p>Your tasks for Sprint 4: </p>
     </div>
 </body>
 </html>

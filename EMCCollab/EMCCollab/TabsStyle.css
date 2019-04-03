@@ -5,25 +5,38 @@
     background-color: #065A90;
 }
 /*The tab button (also new class)*/
-.tabbtn{
-    background-color: inherit;
+.tab button{
+    background-color: #065A90;
+    color: white;
     float:left;
+    border: none;
+    outline: none;
     cursor:pointer;
     padding:14px 16px;
     transition: 0.3s;
 }
 
-tabbtn:hover{
-    background-color: #dddddd;
+tab button:hover{
+    background-color: #ec221e;
 }
 
-.tabbtn.active{
-    background-color: #cccccc;
+.tab button.active{
+    background-color: orange;
 }
 
 .tabcont{
     display: none;
     padding: 6px 12px;
-    border: 1px solid #cccccc;
+    border: 1px solid pink;
     border-top: none;
+}
+
+h3{
+    font-family: Quicksand;
+    font-size: 16px
+   
+}
+p{
+    font-family: Raleway;
+    font-weight: 200;
 }
